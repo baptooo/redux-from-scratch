@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API dispatch should decrement my counter 1`] = `
+Object {
+  "counter": Object {
+    "value": 0,
+  },
+}
+`;
+
+exports[`API dispatch should increment my counter 1`] = `
+Object {
+  "counter": Object {
+    "value": 1,
+  },
+}
+`;
+
+exports[`API getState should override my reducer state 1`] = `
+Object {
+  "counter": Object {
+    "value": 2,
+  },
+}
+`;
+
+exports[`API getState should return my initial state 1`] = `
+Object {
+  "foo": "bar",
+}
+`;
+
+exports[`API getState should return my reducer initial state 1`] = `
+Object {
+  "counter": Object {
+    "value": 0,
+  },
+}
+`;
